@@ -31,7 +31,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.donateblood, .hostingablooddrive, .biomedicalservice, .teams, .contact, footer{
+.donateblood, .hostingablooddrive, .biomedicalservice, .service, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .donateblood .donateblood-content,
@@ -220,18 +220,18 @@ section .title::after{
     background: none;
 }
 
-.hostingablooddrive, .teams{
+.hostingablooddrive, .service{
     position: inline;
     color:#fff;
     background: #111;
   
 }
 .hostingablooddrive .title::before,
-.teams .title::before{
+.service .title::before{
     background: #fff;
 }
 .hostingablooddrive .title::after,
-.teams .title::after{
+.service .title::after{
     background: #111;
     content: "giving=living";
 }
