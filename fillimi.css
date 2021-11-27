@@ -256,15 +256,16 @@ section .title::after{
     transform: scale(1.05);
     
 }
-.hostingablooddrive .hostingablooddrive-content .card i{
+/*Skem me qit ikona qika*/
+/*<!--.hostingablooddrive .hostingablooddrive-content .card i{
     font-size: 50px;
   
-    color: rgb(255, 0, 0);
+    color: rgb(136, 255, 0);
     transition: color 0.3s ease;
-}
-.hostingablooddrive .hostingablooddrive-content .card:hover i{
-    color: #fff;
-}
+}*/
+/*.hostingablooddrive .hostingablooddrive-content .card:hover i{
+    color: rgb(17, 0, 255);
+}*/
 .hostingablooddrive .hostingablooddrive-content .card .text{
     font-size: 25px;
     font-weight: 500;
