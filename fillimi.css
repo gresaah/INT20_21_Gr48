@@ -176,18 +176,18 @@ section .title::after{
     content: "The Blood Donation Process";
 }
 .donateblood .donateblood-content .right{
-    width: 35%;
+    width: 60%;
 }
 .donateblood .donateblood-content .right img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
-    margin-top: -200px;
+    margin-top: -300px;
     margin-left: 800px;
 }
 .donateblood .donateblood-content .left{
-    width: 65%;
+    width: 40%;
 }
 .donateblood .donateblood-content .left .text{
     font-size: 25px;

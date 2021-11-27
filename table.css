@@ -12,7 +12,7 @@
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-left: 600px;
-    margin-top: 20px;
+    margin-top: -200px;
   }
   
   .content-table thead tr {
