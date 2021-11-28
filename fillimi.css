@@ -271,3 +271,10 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
