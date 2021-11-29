@@ -81,10 +81,7 @@ section .title::after{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
-.navbar.sticky{
-    padding: 15px 0;
-    background: crimson;
-}
+
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -99,9 +96,7 @@ section .title::after{
     color: crimson;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
-    color: #fff;
-}
+
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -116,9 +111,6 @@ section .title::after{
 }
 .navbar .menu li a:hover{
     color: crimson;
-}
-.navbar.sticky .menu li a:hover{
-    color: #fff;
 }
 
 .home{
@@ -260,16 +252,7 @@ section .title::after{
     transform: scale(1.05);
     
 }
-/*Skem me qit ikona qika*/
-/*<!--.hostingablooddrive .hostingablooddrive-content .card i{
-    font-size: 50px;
-  
-    color: rgb(136, 255, 0);
-    transition: color 0.3s ease;
-}*/
-/*.hostingablooddrive .hostingablooddrive-content .card:hover i{
-    color: rgb(17, 0, 255);
-}*/
+
 .hostingablooddrive .hostingablooddrive-content .card .text{
     font-size: 25px;
     font-weight: 500;
