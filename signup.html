@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="loginstyle.css">
-    <!--<link rel="stylesheet" href="username.css">-->
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="16x16" href="images/icon.png">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
   </head>
-  <body onload = 'document.login_form.login_email.focus()'>
+  <body >
     <div class="mbul">
       <div class="title-text">
         <div class="title login">
@@ -32,16 +31,7 @@ Signup Form</div>
             <div class="username field">
               <input type="text" class="username-field" id="username-field" name="login_email" placeholder="Username" required>
             </div>
-           <!-- <div class="messages">
-              <p class="username-rules" style="font-size: 12px;">
-                <i class="fas fa-exclamation-circle"></i>
-                 Your username must be between 8 to 30 characters.
-              </p>
-              <p class="hidden username-success" style="font-size: 13px;">
-                <i class="fas fa-check-circle"></i>
-                 Congrats, that username is valid
-              </p>
-            </div>-->
+           
 <div class="field">
               <input type="password" placeholder="Password" required>
             </div>
@@ -50,14 +40,13 @@ Signup Form</div>
 <div class="field btn">
               <div class="btn-layer">
 </div>
-<input type="submit" value="Login" onclick="ValidateEmail(document.login_form.login_email)">
+<input type="submit" value="Login" > 
             </div>
 <div class="signup-link">
 Not a member? <a href="">Signup now</a></div>
 </form>
 
-<form action="#" class="signup" name="signup_form" onload='document.signup_form.signup_email.focus()'>
-            <div class="field">
+<form action="#" class="signup" name="signup_form" >
               <input type="text" placeholder="Email Address" name="signup_email" required>
             </div>
 <div class="field">
@@ -69,7 +58,7 @@ Not a member? <a href="">Signup now</a></div>
 <div class="field btn">
               <div class="btn-layer">
 </div>
-<input type="submit" value="Signup" onclick="ValidateEmail(document.signup_form.signup_email)">
+<input type="submit" value="Signup">
             </div>
 </form>
 </div>

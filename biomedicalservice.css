@@ -1,6 +1,14 @@
 .biomedicalservice .title::after{
     content: "Blood & Diagnostic Testing";
 }
+
+.biomedicalservice .biomedicalservice-content .picright{
+    float: right;
+    margin-left: 20px;
+    margin-right: 150px;
+
+}
+
 .biomedicalservice .biomedicalservice-content .column{
     width: calc(50% - 30px);
 }
@@ -80,3 +88,9 @@
 .biomedicalservice-content .right .AB-::before{
     width: 0.6%;
 }
+
+.biomedicalservice .biomedicalservice-content .img{
+    margin-top:-350px;
+    margin-left: 1000px;
+}
+

@@ -220,6 +220,10 @@ section .title::after{
     background: none;
 }
 
+
+
+
+
 .hostingablooddrive, .service{
     position: inline;
     color:#fff;
@@ -270,6 +274,10 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+.hostingablooddrive .hostingablooddrive-content .card .button {
+    color: white;
 }
 
 footer{
