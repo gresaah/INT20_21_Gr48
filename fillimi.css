@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -10,12 +11,13 @@
 section{
     padding: 100px 0;
 }
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 }
-.donateblood, .hostingablooddrive, .biomedicalservice, .service, .contact, footer{
+.donateblood, .hostingablooddrive, .biomedicalservice, .service, .contact, .footer{
     font-family: 'Poppins', sans-serif;
 }
 .donateblood .donateblood-content,
@@ -30,7 +32,7 @@ section{
 section .title{
     position: relative;
     text-align: center;
-    font-size: 40px;
+    font-size: 40px; 
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
@@ -41,9 +43,9 @@ section .title::before{
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 300px;
     height: 3px;
-    background: #111;
+    background: rgb(0, 0, 0);
     transform: translateX(-50%);
 }
 section .title::after{
@@ -58,12 +60,13 @@ section .title::after{
 }
 
 .navbar{
+    
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding:  30px 0;
     font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
+    
 }
 
 .navbar .max-width{
@@ -72,21 +75,20 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
-    transition: all 0.3s ease;
+    color: rgb(253, 0, 0);
+    
 }
 
 .navbar .menu li{
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
-    display: block;
+.navbar .menu li a{    
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -94,7 +96,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(255, 0, 0);
 }
 
 .home{
@@ -111,9 +113,7 @@ section .title::after{
   width: 100%;
   display: flex;
 }
-.home .max-width .row{
-  margin-right: 0;
-}
+
 .home .home-content .text-1{
     font-size: 50px;
 }
@@ -126,10 +126,7 @@ section .title::after{
     font-size: 30px;
     margin: 5px 0;
 }
-.home .home-content .text-3 span{
-    color:crimson;
-    font-weight: 500;
-}
+
 .home .home-content a{
     display: inline-block;
     background: rgb(255, 0, 0);
@@ -139,29 +136,35 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid rgb(255, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
     color: rgb(255, 0, 0);
     background: none;
 }
-/*pjesa donte blood css*/
+
+
+
+
+
+/*pjesa donate blood css*/
 
 .donateblood .title::after{
     content: "The Blood Donation Process";
+    
 }
 .donateblood .donateblood-content .right{
     width: 60%;
 }
-.donateblood .donateblood-content .right img{
+/*.donateblood .donateblood-content .right img{
     height: 400px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
     margin-top: -300px;
     margin-left: 800px;
-}
+}*/
 .donateblood .donateblood-content .left{
     width: 40%;
 }
@@ -171,9 +174,10 @@ section .title::after{
     margin-bottom: 10px;
 }
 
-.donateblood .donateblood-content .right .text span{
+/*.donateblood .donateblood-content .right .text span{
     color: rgb(255, 0, 0);
 }
+*/
 .donateblood .donateblood-content .left p{
     text-align: justify;
 }
@@ -200,24 +204,33 @@ section .title::after{
 
 
 
+
+
+
+
+
+
+
 .hostingablooddrive, .service{
     position: inline;
     color:#fff;
     background: #111;
   
 }
+
 .hostingablooddrive .title::before,
 .service .title::before{
-    background: #fff;
+    background: rgb(255, 254, 254);
 }
+
 .hostingablooddrive .title::after,
 .service .title::after{
     background: #111;
     content: "giving=living";
 }
 .hostingablooddrive .hostingablooddrive-content .card{
-    position: in-line;
-    width: calc(33.33% - 40px);
+    position: inline;
+    width:  calc(33.33% - 40px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -225,6 +238,7 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
 .hostingablooddrive .hostingablooddrive-content .card:hover{
     background: rgb(255, 0, 0);
 }
@@ -233,18 +247,18 @@ section .title::after{
     
 }
 .hostingablooddrive .hostingablooddrive-content .card:hover .box{
-    transform: scale(1.05);
+    transform: scale(0.95);
     
 }
 
 .hostingablooddrive .hostingablooddrive-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 0 12px 0;
 }
 
 .hostingablooddrive .hostingablooddrive-content .card .button {
-    color: white;
+    color: rgb(96, 228, 238);
 }
 
 footer{

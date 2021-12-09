@@ -1,5 +1,5 @@
-* {
-    font-family: sans-serif; /* Change your font family */
+*{
+    font-family: sans-serif; 
   }
   
   .content-table {
@@ -10,9 +10,9 @@
     min-width: 400px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.377);
     margin-left: 600px;
-    margin-top: -350px;
+    margin-top: -360px;
   }
   
   .content-table thead tr {
@@ -28,7 +28,7 @@
   }
   
   .content-table tbody tr {
-    border-bottom: 1px solid #ffdbdb;
+    border-bottom: 1px solid #690000;
   }
   
   .content-table tbody tr:nth-of-type(even) {
@@ -36,10 +36,6 @@
   }
   
   .content-table tbody tr:last-of-type {
-    border-bottom: 2px solid #ff0000;
+    border-bottom: 2px solid #7a0404;
   }
   
-  .content-table tbody tr.active-row {
-    font-weight: bold;
-    color: #ff0000;
-  }

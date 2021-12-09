@@ -12,9 +12,7 @@
 .contact .contact-content .left p{
     text-align: justify;
 }
-.contact .contact-content .left .icons{
-    margin: 10px 0;
-}
+
 .contact .contact-content .row{
     display: flex;
     height: 65px;
@@ -73,7 +71,6 @@
 .right form .button-area button{
   color: #fff;
   display: block;
-  width: 160px!important;
   height: 45px;
   outline: none;
   font-size: 18px;

@@ -26,10 +26,10 @@
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 8px 8px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgba(236, 53, 78, 0.678);
     transition: all 0.3s ease;
 
 }
@@ -37,26 +37,26 @@
     color: rgb(255, 0, 0);
     background: none;
 }
-.biomedicalservice .biomedicalservice-content .right .bars{
+.biomedicalservice .biomedicalservice-content .left .bars{
     margin-bottom: 15px;
 }
-.biomedicalservice .biomedicalservice-content .right .info{
+.biomedicalservice .biomedicalservice-content .left .info{
     display: flex;
     margin-bottom: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.biomedicalservice .biomedicalservice-content .right span{
+.biomedicalservice .biomedicalservice-content .left span{
     font-weight: 500;
     font-size: 18px;
 }
-.biomedicalservice .biomedicalservice-content .right .line{
+.biomedicalservice .biomedicalservice-content .left .line{
     height: 5px;
     width: 100%;
     background: lightgrey;
     position: relative;
 }
-.biomedicalservice .biomedicalservice-content .right .line::before{
+.biomedicalservice .biomedicalservice-content .left .line::before{
     content: "";
     position: absolute;
     height: 100%;
@@ -64,28 +64,28 @@
     top: 0;
     background: rgb(255, 0, 0);
 }
-.biomedicalservice-content .right .O::before{
+.biomedicalservice-content .left .O::before{
     width: 37.4%;
 }
-.biomedicalservice-content .right .A::before{
+.biomedicalservice-content .left .A::before{
     width: 35.7%;
 }
-.biomedicalservice-content .right .B::before{
+.biomedicalservice-content .left .B::before{
     width: 8.5%;
 }
-.biomedicalservice-content .right .AB::before{
+.biomedicalservice-content .left .AB::before{
     width: 3.4%;
 }
-.biomedicalservice-content .right .O-::before{
+.biomedicalservice-content .left .O-::before{
     width: 6.6%;
 }
-.biomedicalservice-content .right .A-::before{
+.biomedicalservice-content .left .A-::before{
     width: 6.3%;
 }
-.biomedicalservice-content .right .B-::before{
+.biomedicalservice-content .left .B-::before{
     width: 1.5%;
 }
-.biomedicalservice-content .right .AB-::before{
+.biomedicalservice-content .left .AB-::before{
     width: 0.6%;
 }
 

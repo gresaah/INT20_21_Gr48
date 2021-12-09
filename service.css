@@ -1,7 +1,7 @@
 .service .title::after{
-    content: "Cell and Gene Therapy Solutions";
+    content: "Therapy Solutions";
 }
-.service .carousel .card{
+.service .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -9,25 +9,25 @@
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.service .carousel .card:hover{
+.service .card:hover{
     background: rgb(255, 0, 0);
 }
-.service .carousel .card .box{
+.service  .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.service .carousel .card:hover .box{
+.service  .card:hover .box{
     transform: scale(1.05);
 }
-.service .carousel .card .text{
+.service  .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.service .carousel .card img{
+.service .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -35,27 +35,10 @@
     border: 5px solid rgb(255, 0, 0);
     transition: all 0.3s ease;
 }
-.service .carousel .card:hover img{
+.service .card:hover img{
     border-color: #fff;
 }
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 0, 0)!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: rgb(255, 0, 0)!important;
-}
+
+
+
+
