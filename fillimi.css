@@ -8,6 +8,25 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #70d6ce;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(241, 0, 0);
+}
+/* all similar content styling codes */
+
 section{
     padding: 100px 0;
 }
