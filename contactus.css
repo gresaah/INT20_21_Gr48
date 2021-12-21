@@ -12,6 +12,9 @@
 .contact .contact-content .left p{
     text-align: justify;
 }
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
 
 .contact .contact-content .row{
     display: flex;
@@ -21,7 +24,10 @@
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
-
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: red;
+}
 .contact .contact-content .info .head{
     font-weight: 500;
 }

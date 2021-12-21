@@ -1,7 +1,7 @@
 .service .title::after{
     content: "Therapy Solutions";
 }
-.service .card{
+.service .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -9,25 +9,25 @@
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.service .card:hover{
+.service .carousel .card:hover{
     background: rgb(255, 0, 0);
 }
-.service  .card .box{
+.service .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.service  .card:hover .box{
+.service .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.service  .card .text{
+.service .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.service .card img{
+.service .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -35,10 +35,31 @@
     border: 5px solid rgb(255, 0, 0);
     transition: all 0.3s ease;
 }
-.service .card:hover img{
+.service .carousel .card:hover img{
     border-color: #fff;
 }
 
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: red!important;
+}
 
 
 
