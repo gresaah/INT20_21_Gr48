@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root{
+  --error-color: #d9534f;
+  --success-color: #5cb85c;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  /*background: -webkit-linear-gradient(left, #68a8d3, #e0d176);*/
+  background: url('loginbackground.jpg') no-repeat center;
+  background-size: cover;
+   background-attachment: fixed;
+}
+::selection{
+  background: #c9d498;
+  color: #fff;
+}
+.mbul{
+  overflow: hidden;
+  max-width: 390px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgba(161, 33, 33, 0.767);
+}
+.mbul .title-text{
+  display: flex;
+  width: 200%;
+}
+.mbul .title{
+  width: 50%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.mbul .slide-controls{
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin: 30px 0 10px 0;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.slide-controls .slide{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.9s ease;
+}
+.slide-controls label.signup{
+  color: #000;
+}
+.slide-controls .slider-tab{
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  z-index: 0;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(left,rgb(199, 39, 39), #e62020,rgb(158, 29, 29));
+  /*transition: all 0.6s cubic-bezier(0.66,-0.55,0.255,1.53);*/
+}
+input[type="radio"]{
+  display: none;
+}
+#signup:checked ~ .slider-tab{
+  left: 50%;
+}
+#signup:checked ~ label.signup{
+  color: #fff;
+  cursor: default;
+  user-select: none;
+}
+#signup:checked ~ label.login{
+  color: #000;
+}
+#login:checked ~ label.signup{
+  color: #000;
+}
+#login:checked ~ label.login{
+  cursor: default;
+  user-select: none;
+}
+.mbul .kuti{
+  width: 100%;
+  overflow: hidden;
+}
+.kuti .te_dhenat{
+  display: flex;
+  width: 200%;
+}
+.kuti .te_dhenat form{
+  width: 50%;
+  /*transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);*/
+}
+.te_dhenat form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+}
+.te_dhenat form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+  font-size: 17px;
+  /*transition: all 0.3s ease;*/
+}
+.te_dhenat form .field input:focus{
+  border-color: #ff5151;
+}
+.te_dhenat form .field input::placeholder{
+  color: rgb(37, 37, 27);
+  transition: all 0.3s ease;
+}
+form .field input:focus::placeholder{
+  color: #d6d39f;
+}
+.te_dhenat form .pass-link{
+  margin-top: 5px;
+}
+.te_dhenat form .signup-link{
+  text-align: center;
+  margin-top: 30px;
+}
+.te_dhenat form .pass-link a,
+.te_dhenat form .signup-link a{
+  color: #362e2e;
+  text-decoration: none;
+}
+.te_dhenat form .pass-link a:hover,
+.te_dhenat form .signup-link a:hover{
+  text-decoration: underline;
+}
+form .btn{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+form .btn .btn-layer{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: -webkit-linear-gradient(left,rgb(104, 78, 78), #e62020,rgb(117, 110, 110));
+  transition: all 0.4s ease;;
+}
+form .btn:hover .btn-layer{
+  left: 0;
+}
+form .btn input[type="submit"]{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+@media (max-width: 947px){
+  .menu-btn{
+      display: block;
+      z-index: 999;
+  }
+  .menu-btn i.active:before{
+      content: "\f00d";
+  }
+  .navbar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      background: #111;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+  }
+  .navbar .menu.active{
+      left: 0;
+  }
+  .navbar .menu li{
+      display: block;
+  }
+  .navbar .menu li a{
+      display: inline-block;
+      margin: 20px 0;
+      font-size: 25px;
+  }
+  .home .home-content .text-2{
+      font-size: 70px;
+  }
+  .home .home-content .text-3{
+      font-size: 35px;
+  }
+  .home .home-content a{
+      font-size: 23px;
+      padding: 10px 30px;
+  }
+  .max-width{
+      max-width: 930px;
+  }
+  .donateblood .donateblood-content .column{
+      width: 100%;
+  }
+  .donateblood .donateblood-content .left{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 60px;
+  }
+  .donateblood .donateblood-content .right{
+      flex: 100%;
+  }
+  .hostingablooddrive .hostingablooddrive-content .card{
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+  }
+  .biomedicalservice .biomedicalservice-content .column,
+  .contact .contact-content .column{
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media (max-width: 690px) {
+  .max-width{
+      padding: 0 23px;
+  }
+  .home .home-content .text-2{
+      font-size: 60px;
+  }
+  .home .home-content .text-3{
+      font-size: 32px;
+  }
+  .home .home-content a{
+      font-size: 20px;
+  }
+  .hostingablooddrive .hostingablooddrive-content .card{
+      width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .home-content .text-2{
+      font-size: 50px;
+  }
+  .home .home-content .text-3{
+      font-size: 27px;
+  }
+  .donateblood .donateblood-content .right .text,
+  .biomedicalservice .biomedicalservice-content .left .text{
+      font-size: 19px;
+  }
+  .contact .right form .fields{
+      flex-direction: column;
+  }
+  .contact .right form .name,
+  .contact .right form .email{
+      margin: 0;
+  }
+  .right form .error-box{
+     width: 150px;
+  }
+  .scroll-up-btn{
+      right: 15px;
+      bottom: 15px;
+      height: 38px;
+      width: 35px;
+      font-size: 23px;
+      line-height: 38px;
+  }
+}

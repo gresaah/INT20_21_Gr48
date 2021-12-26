@@ -274,6 +274,10 @@ section .title::after{
 
 
 /*pjesa donate blood css*/
+.donateblood  .dark-mode{
+    background-color: black;
+    color: white;
+  }
 
 .donateblood .title::after{
     content: "The Blood Donation Process";
