@@ -88,7 +88,7 @@ section .title::after{
 }
 
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 20px 0;
     background: rgb(255, 0, 0);
 }
 
@@ -117,6 +117,7 @@ section .title::after{
 }
 .navbar .menu li a{    
     color: #fff;
+    display: block;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -371,7 +372,7 @@ footer span a:hover{
 }
 
 @media (max-width: 1104px) {
-    .about .about-content .left img{
+    .donateblood .donateblood-content .left img{
         height: 350px;
         width: 350px;
     }
@@ -424,22 +425,22 @@ footer span a:hover{
     .max-width{
         max-width: 930px;
     }
-    .about .about-content .column{
+    .donateblood .donateblood-content .column{
         width: 100%;
     }
-    .about .about-content .left{
+    .donateblood .donateblood-content .left{
         display: flex;
         justify-content: center;
         margin: 0 auto 60px;
     }
-    .about .about-content .right{
+    .donateblood .donateblood-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .hostingablooddrive .hostingablooddrive-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
+    .biomedicalservice .biomedicalservice-content .column,
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
@@ -458,7 +459,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .hostingablooddrive .hostingablooddrive-content .card{
         width: 100%;
     }
 }
@@ -469,8 +470,8 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    .donateblood .donateblood-content .right .text,
+    .biomedicalservice .biomedicalservice-content .left .text{
         font-size: 19px;
     }
     .contact .right form .fields{
