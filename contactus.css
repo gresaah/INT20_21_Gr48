@@ -97,8 +97,19 @@
   background: none;
 }
 
+.contact .pika{
+    
+    left:0px;
+    animation-name: leviz;
+    animation-duration:12s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
 
-
+@keyframes leviz{
+    from{transform: translateX(0);}
+    to{transform: translateX(1130px);}
+}
 
 @media (max-width: 947px){
     .menu-btn{
