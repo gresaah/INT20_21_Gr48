@@ -5,8 +5,9 @@
 .biomedicalservice .biomedicalservice-content .videoright{
     float: right;
     margin-left: 20px;
-    margin-right: 150px;
-
+    margin-right: 50px;
+    margin-bottom: 100px;
+    
 }
 
 .biomedicalservice .biomedicalservice-content .column{

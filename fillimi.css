@@ -191,47 +191,59 @@ section .title::after{
    opacity: 0.8;
 }
 
+.home .overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(189, 45, 45, 0.781);
+    mix-blend-mode: overlay;
+
+}
 
 .home .max-width{
   width: 100%;
   display: flex;
+  
 }
 
-/* .home .max-width .video-background {
-    display: flex;
-    height: 100vh;
-    color: rgb(255, 255, 255);
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-    left: 0;
-    right: 0;
-   
- } */
+
 .home .max-width .row{
     margin-right: 0;
   }
 
 .home .home-content .text-1{
     font-size: 50px;
-   
+    position: relative;
+    z-index: 10;  
+    text-shadow: 1px 1px 2px rgb(233, 48, 48), 0 0 25px rgb(238, 52, 52), 0 0 5px rgb(255, 0, 0);
 }
+
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-  
+    position: relative;
+    z-index: 10; 
+    text-shadow: 1px 1px 2px rgb(233, 48, 48), 0 0 25px rgb(238, 52, 52), 0 0 5px rgb(255, 0, 0);
 }
 .home .home-content .text-3{
     font-size: 30px;
     margin: 5px 0;
+    position: relative;
+    z-index: 10;
+    text-shadow: 1px 1px 2px rgb(233, 48, 48), 0 0 25px rgb(238, 52, 52), 0 0 5px rgb(255, 0, 0);
+   
 }
 
 .home .home-content .text-3 span{
     color: red;
     font-weight: 500;
-   
+    position: relative;
+    z-index: 10;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(228, 142, 142), 0 0 5px rgb(247, 247, 247);
+    
 }
 
 .home .home-content a{
@@ -242,15 +254,19 @@ section .title::after{
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     border: 2px solid rgb(255, 255, 255);
-    transition: all 0.3s ease;
-    
-    
+    transition: all 0.3s ease;  
+    position: relative;
+    z-index: 10;
+    border-radius: 5px 20px 5px;
 }
+
 .home .home-content a:hover{
     color: rgb(255, 0, 0);
     background: none;
+    position: relative;
+    z-index: 10;  
 }
 
 
