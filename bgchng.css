@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name:animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+@keyframes animate{
+    0%{
+        background-image: url(back1.jpg);
+    }
+    20%{
+        background-image: url(back2.jpg);
+    }
+    40%{
+        background-image: url(back3.jpeg);
+    }
+    60%{
+        background-image: url(back4.jpg);
+    }
+    80%{
+        background-image: url(back5.jpg);
+    }
+    100%{
+        background-image: url(back6.jpeg);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
