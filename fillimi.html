@@ -51,7 +51,7 @@
           <div class="text-1">Don't stop</div>
           <div class="text-2">Donate Blood</div>
           <div class="text-3">Be <span class="typing"></span></div>
-          <a href="#">Donate now</a>
+          <a href="login.html" href="signup.html"> Donate now</a>
       </div>
   </div>
 </section>
@@ -168,8 +168,22 @@
               <div class="box">
                   <i class="fas fa-user-circle"></i>
               <div class="text">Manage My Blood Drive</div>                  
-                <a href="login.html" class="button btn btn-dark text-center" id="login">Log In |</a>
-                <a href="signup.html" class="button btn btn-dark text-center" id="signup">Sign Up</a>
+                <!-- <a href="login.html" class="button btn btn-dark text-center" id="login">Log In |</a>
+                <a href="signup.html" class="button btn btn-dark text-center" id="signup">Sign Up</a> -->
+
+                      <p id="para">View my donation history</p><br>
+                      <button onclick="changeColor('white');">White</button>
+                      <button onclick="changeColor('black');">Black</button>
+                      <script>
+                          function changeColor(newColor) {
+                      var elem = document.getElementById('para');
+                      elem.style.color = newColor;}
+                      </script>
+
+                      <br>
+                      <br>
+                      <a href="needbloodfor.html"> Need blood for...</a>
+                     
               </div>
           </div>
           <div class="card">
@@ -215,7 +229,13 @@
         <h2 class="title">Biomedical Service</h2>              
         <div class="biomedicalservice-content">
             <!-- <img class="picright" src="3.jpeg" width="390" height="280" alt="laborator" /> -->
-            <video  class="videoright" src="BloodDonation2.mp4" muted loop autoplay width="450" height="400"></video>
+            <!-- <canvas id="myCanvas" width="450" height="400" style="border:3px solid #ff0000;">
+                Your browser does not support the HTML canvas tag.
+                <video  class="videoright" src="BloodDonation2.mp4" muted loop autoplay width="450" height="400"></video>
+            <div class="overlay"></div>
+                </canvas>
+                 -->
+            <video  class="videoright" src="BloodDonation2.mp4" unmuted loop autoplay width="450" height="280" style="border:3px dotted #ff0000"></video>
             <div class="overlay"></div>
             <div class="column left">
                 <div class="text"> Blood Group Serology</div>
@@ -346,10 +366,10 @@
 <!-- Service-->
 <section class="service" id="service">
     <div class="max-width">
-        <audio autoplay>
-            <!-- <source src="zeri.m4a" type="audio/mpeg"> -->
+        <!-- <audio autoplay>
+             <source src="zeri.m4a" type="audio/mpeg"> 
           Your browser does not support the audio element.
-          </audio>
+          </audio> -->
         <h2 class="title">Service</h2>
         <div class="carousel owl-carousel">
             <div class="card">

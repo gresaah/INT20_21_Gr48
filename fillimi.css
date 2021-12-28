@@ -201,7 +201,6 @@ section .title::after{
     height: 100%;
     background: rgba(189, 45, 45, 0.781);
     mix-blend-mode: overlay;
-
 }
 
 .home .max-width{
@@ -413,8 +412,8 @@ section .title::after{
     margin: 10px 0 12px 0;
 }
 
-.hostingablooddrive .hostingablooddrive-content .card .button {
-    color: rgb(96, 228, 238);
+.hostingablooddrive .hostingablooddrive-content .card a{
+    color: rgb(255, 255, 255);
 }
 
 footer{
