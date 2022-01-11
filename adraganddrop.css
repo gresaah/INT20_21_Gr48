@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color:rgb(236, 155, 155);
+  }
+  
+  .container {
+    background-color: rgb(141, 83, 83);
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .draggable {
+    padding: 1rem;
+    background-color:  rgb(216, 100, 100);
+    border: 1px solid rgb(184, 84, 84);
+    cursor: move;
+  }
+  
+  .draggable.dragging {
+    opacity: .5;
+  }
