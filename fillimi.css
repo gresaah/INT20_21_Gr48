@@ -249,6 +249,13 @@ section .title::after{
     
 }
 
+/* spo di me bo */
+.home .home-content .column-left button{
+    color: rgb(255, 0, 0);
+    background: none;
+}
+
+
 .home .home-content a{
     display: inline-block;
     background: rgb(255, 0, 0);
@@ -326,6 +333,23 @@ section .title::after{
 .donateblood .donateblood-content .left p{
     text-align: justify;
 }
+.donateblood .donateblood-content .left button{
+    display: inline-block; 
+    background: rgb(255, 0, 0);
+    color: #fff;
+    padding: 3px 3px;
+    margin-top: 3px;
+    border-radius: 6px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    margin-bottom: 3px;
+}
+.donateblood .donateblood-content .left button:hover{
+    color: rgb(255, 0, 0);
+    background: none; 
+    border: 2px solid red;    
+}
+
 .donateblood .donateblood-content .left a{
     display: inline-block; 
     background: rgb(255, 0, 0);
@@ -338,7 +362,6 @@ section .title::after{
     border: 2px solid red;
     transition: all 0.3s ease;
     margin-bottom: 20px;
-    
 }
    
 .donateblood .donateblood-content .left a:hover{
