@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Who can?</title>
+      <link rel="stylesheet" href="whocandonateblood.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+       <script src="jquery-1.11.2.min.js"></script>
+
+    
+
+      <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+            $("#div1").fadeToggle();
+            $("#div2").fadeToggle("fast");
+            $("#div3").fadeToggle("fast");
+            $("#div4").fadeToggle("fast");
+            $("#div5").fadeToggle(3000);
+          });
+          $("#btn2").click(function(){
+            $("#div1").fadeiIn();
+            $("#div2").fadeiIn("fast");
+            $("#div3").fadeiIn("fast");
+            $("#div4").fadeiIn("fast");
+            $("#div5").fadeiIn(5000);
+          });
+          
+        });
+        </script>
+        <script>
+        $(function(){
+
+            $("button").click(function(){
+              $("#A10").hide();
+            });
+            
+            
+            
+           
+            
+          });
+        </script>
+        <script> 
+            $(document).ready(function(){
+            
+              $("button").click(function(){
+                var div=$("#text");
+                div.animate({height:'300px',opacity:'0.4'},"slow");
+                div.animate({width:'300px',opacity:'0.8'},"slow");
+                div.animate({height:'100px',opacity:'0.4'},"slow");
+                div.animate({width:'100px',opacity:'0.8'},"slow");
+              });
+            });
+            </script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="card">
+            <div class="img">
+               <img src="20.jpg">
+            </div>
+            <div class="top-text">
+               <div class="name">
+            WHO CANNOT DONATE BLOOD?
+               </div>
+               <p>
+                Among the temporary conditions are:
+               </p>
+            </div>
+            <div class="bottom-text">
+                <button id="btn2">Show</button> <br><br>
+                <div id="div1" >Pregnancy</div>
+                <br>
+                <div id="div2" >Acute fever</div>
+                <br>
+                <div id="div3">Recent alcoholic intake</div><br>
+                <div id="div4">Ear or body piercing and tattooing</div><br>
+                <div id="div5"> Surgery</div>
+               
+            </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="22.gif">
+            </div>
+            <div class="top-text">
+               <div class="name">
+                Persons are not allowed to donate blood anyime:
+               </div>
+               
+            </div>
+            <div class="bottom-text">
+               <div class="text">
+                <p id="A10">
+                    Cancer    <br>                 
+                    Cardiac disease<br>                       
+                    Sever lung disease<br>                       
+                    Hepatitis B and C <br>                      
+                    Chronic alcoholism <br>                      
+                    Other conditions or disease stated in the Guide to Medical Assessment of Blood Donors.  </P>
+               </div>
+               <div class="btn">
+                  <button>HIDE</button>>
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="img">
+               <img src="21.jpg">
+            </div>
+            <div class="top-text">
+               <div class="name">
+                You can give blood if you:
+               </div>
+               
+            </div>
+            <div class="bottom-text">
+               <div id="text">
+                Weigh between 7 stone 12 lbs and 25 <br>
+               </div>
+               <div class="btn">
+                  <button>Show</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

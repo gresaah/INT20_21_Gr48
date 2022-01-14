@@ -3,6 +3,13 @@ body {
     background-color:#ffcccc;
 }
 
+
+h2, p {
+  width:500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 ol {
     background: #ff9999;
     padding: 20px;

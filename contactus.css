@@ -91,11 +91,35 @@
 .right form .button-area button a{
     color:white;
 }
-
 .right form .button-area button:hover{
   color: rgb(255, 0, 0);
   background: none;
 }
+.right form .button-area2 button{
+    color: #fff;
+    display: block;
+    height: 30px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-right: 4px;
+    flex-wrap: nowrap;
+    background: rgb(129, 129, 129);
+    border: 2px solid rgb(65, 64, 64);
+    transition: all 0.3s ease;
+  }
+
+  .right form .button-area2 button a{
+    color:white;
+}
+.right form .button-area2 button:hover{
+    color: rgb(255, 0, 0);
+    background: none;
+  }
+
 
 .contact .pika{
     
