@@ -1,35 +1,141 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="canvas.css">
-        <link rel="stylesheet" href="canvas.js">
-    </head>
 
-    <body>
-        <!-- <div class="triangle-container">
-            <svg height="500" width="500">
-                <polygon points="250,60 100,400 400,400" class="triangle" />
-                Sorry, your browser does not support inline SVG.
-            </svg>
-          </div> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Disadvantages of Donating Blood</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canvas2.css">
+    <link rel="stylesheet" href="canvas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
 
-      <div id="trekendeshi">
+<body>
+  <div class="wrapper">
+    <div class="center-line">
+      <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+    </div>
+    <div class="row row-1">
+      <section>
+        <i class="icon fa fa-plus"></i>
+        <div class="details">
+          <span class="title">Bruising</span>
+          <span>1st Jan 2021</span>
+        </div>
+        <p>When you donate blood, you sit or lie on a reclining chair with your arm extended on an armrest. A healthcare provider will place a blood pressure cuff or tourniquet around your upper arm to fill your veins with more blood. After cleaning the skin on the inside of one of your elbows, the provider will insert a sterile needle attached to a thin plastic tube and blood bag into one of your veins. </p>
+        <div class="bottom">
+          <!-- <a href="#">Read more</a> -->
+          <i>- Lira</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-pills"></i>
+        <div class="details">
+          <span class="title">Continued bleeding</span>
+          <span>2nd Jan 2021</span>
+        </div>
+        <p>When a blood donation is complete, a healthcare provider will remove the needle from your vein and place a bandage on the needle site. They will wrap your arm with a dressing. The bandage and pressure of the dressing is meant to stop the blood flow out of your vein. Your nurse will instruct you to keep your bandage and dressing in place for at least four to five hours to ensure bleeding is stopped.</p>
+        <div class="bottom">
+          <!-- <a href="#">Read more</a> -->
+          <i>- Gresa</i>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-hotel"></i>
+        <div class="details">
+          <span class="title">Dizziness, lightheadedness, and nausea</span>
+          <span> 3rd Jan 2022</span>
+        </div>
+        <div>
+            <div id="trekendeshi">
        
-          <canvas id="triangle" height="100" width="100">Triangle</canvas>
-  
-          <svg xmlns="http://www.w3.org/2000/svg" class="svg-triangle">
-            <polygon points="0,0 100,0 50,100"/>
+                <canvas id="triangle" height="100" width="100">Triangle</canvas>
+        
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-triangle">
+                  <polygon points="0,0 100,0 50,100"/>
+                </svg>
+            </div>
+      
+                
+                <p>After your donation is complete, you will be told to sit in an observation area for 15 minutes. There you will have the opportunity to rest, drink fluids — usually water or fruit juice — and eat a light snack. Eating, drinking, and resting are known to alleviate some of the dizziness, lightheadedness, and nausea that are associated with donating blood. Most people experience at least mild versions of these side effects.</p>
+      
+        </div>
+        
+        <div class="bottom">
+          <!-- <a href="#">Read more</a> -->
+          <i>- Arberesha</i>
+        </div>
+      </section>
+    </div>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-heart-broken"></i>
+        <div class="details">
+          <span class="title">Pain</span>
+          <span>4th Jan 2022</span>
+        </div>
+        <svg width="400" height="180">
+            <rect x="50" y="20" rx="20" ry="20" width="120" height="120"
+            style="fill:rgb(255, 255, 255);stroke:rgb(82, 15, 15);stroke-width:5;opacity:0.5" />
           </svg>
-      </div>
+        <p>Donating blood isn’t a pain-free experience. You may experience pain when the needle is inserted into your arm. You shouldn’t feel any pain while the blood is being drawn, but you may experience an uncomfortable sensation at the site where the needle is inserted into your arm.</p>
+        <div class="bottom">
+          <!-- <a href="#">Read more</a> -->
+          <i>- Lira</i>
+        </div>
+      </section>
+    </div>
 
-          <h3>The Disadvantages of Donating Blood</h3>
-          <p>There’s no doubt that donating blood can do a lot of good: Donating just one pint of blood can save more than one person’s life.
-              <br>Each donor is given a mini physical examination, but there are still some minor side effects that could occur. These include:
-          </p>
 
+    <div class="row row-1">
+      <section>
+        <i class="icon fas fa-hospital-user"></i>
+        <div class="details">
+          <span class="title">Physical weakness</span>
+          <span>5th Jan 2022</span>
+        </div>
+        <canvas id=canvas width=200 height=200></canvas>
+        <script>
+             window.onload = function() {
+                 var canvas = document.getElementById("canvas");
+                 var context = canvas.getContext("2d");
+                 context.fillStyle = "red";
+                 context.fillRect(50, 50, 100, 100);
+                 // no argument defaults to image/png; image/jpeg, etc also work on some
+                 // implementations -- image/png is the only one that must be supported per spec.
+                 window.location = canvas.toDataURL("pika.png");
+             }
+        </script>
+        <p>LAfter donating blood, it’s likely you’ll experience some physical weakness, especially in the arm into which the needle was injected. For that reason, the nurses will advise you to avoid intense physical activity or heavy lifting for five hours after you donate blood.</p>
+        <div class="bottom">
+          <!-- <a href="#">Read more</a> -->
+          <i>- Arberesha</i>
+        </div>
+      </section>
+    </div>
 
-          <br>
+    <div class="row row-2">
+      <section>
+        <i class="icon fas fa-history"></i>
+        <div class="details">
+          <span class="title">Time-consuming</span>
+          <span>6th Jan 2022</span>
+        </div>
+      
+        <p>Donating blood can be a time-consuming process: It can take about an hour and 15 minutes, from the time you arrive to the time you leave. That includes the testing and paperwork process beforehand, where you’ll receive a physical exam and initial finger prick blood test and will need to fill out some documents. Afterward, you’ll need to sit for a 15-minute rest period. However, the blood-drawing process itself only takes about 10 minutes. Many donation centers also offer a RapidPass that you can do beforehand that will help save time.</p>
+        <div class="bottom">
+          <!-- <a href="#">Read more</a> -->
+          <i>- Gresa</i>
+        </div>
+      </section>
+    </div>
+  </div>
 
-    </body>
+</body>
 </html>
-  
