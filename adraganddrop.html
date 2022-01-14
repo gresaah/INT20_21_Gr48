@@ -15,29 +15,6 @@
 </header>
 
 
-
-
-  <!-- <div class="container">
-    <p class="draggable" draggable="true">A+</p>
-    <p class="draggable" draggable="true">A-</p>
-    <p class="draggable" draggable="true">B+</p>
-    <p class="draggable" draggable="true">B-</p>
-    <p class="draggable" draggable="true">AB+</p>
-    <p class="draggable" draggable="true">AB-></p>
-    <p class="draggable" draggable="true">O+</p>
-    <p class="draggable" draggable="true">O-</p>
-  </div>
-  <p style="font-size: 25px;"><br><b>Renditni llojin e gjakut sipas nevojes...</b><br></P>
-  <div class="container">
-    <p class="draggable" draggable="true">1</p>
-    <p class="draggable" draggable="true">2</p>
-    <p class="draggable" draggable="true">3</p>
-    <p class="draggable" draggable="true">4</p>
-    <p class="draggable" draggable="true">5</p>
-    <p class="draggable" draggable="true">6</p>
-    <p class="draggable" draggable="true">7</p>
-    <p class="draggable" draggable="true">8</p>
-  </div> -->
   <section class="dd" id=#>
   <div class="lists">
     <div class="list">
@@ -68,7 +45,36 @@
 </div>
 </div>
 </div>
+<div style="margin-left: 20px; padding: 20px 0;">
 
+<p >How many times have you donate blood?</p>
+    <title>HTML API - Web Storage API</title>
+    <script>
+     
+      var clickCount = 1;
+        function clickCounter() 
+        {
+          if (typeof(Storage) !== "undefined") 
+          {
+
+            // Store
+            clickCount = clickCount+1;
+            localStorage.setItem("clickCount", clickCount);
+            // Retrieve
+            document.getElementById("result").innerText = localStorage.getItem("clickCount");
+            } 
+            else 
+            {
+            document.getElementById("result").innerText = "Sorry, your browser does not support Web Storage...";
+            }
+
+        }
+        </script>
+        </head>
+        <body> 
+        <p><button onclick="clickCounter()" type="button">Click here!</button></p>
+        <div id="result" style="margin-left: 20px; padding: 20px 0;"></div>
+</div>
 
 <script src="adraganddrop.js"></script>
 <script src="app.js" defer></script>
